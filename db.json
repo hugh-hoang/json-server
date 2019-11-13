@@ -1,37 +1,95 @@
 {
-    "configuration": {
-        "apiBaseUrl": "https://my-json-server.typicode.com/hugh-hoang/json-server"
+  "configuration": {
+    "apiBaseUrl": "https://my-json-server.typicode.com/hugh-hoang/json-server"
+  },
+  "funds": [
+    {
+      "Id": 1,
+      "Code": "FUND01",
+      "Name": "Dev Fund 01"
     },
-    "funds": [
-        {
-            "Id": 1,
-            "Code": "FUND01",
-            "Name": "Dev Fund 01"
-        },
-        {
-            "Id": 2,
-            "Code": "FUND02",
-            "Name": "Dev Fund 02"
-        },
-        {
-            "Id": 3,
-            "Code": "FUND03",
-            "Name": "Dev Fund 03"
-        },
-        {
-            "Id": 4,
-            "Code": "FUND04",
-            "Name": "Dev Fund 04"
-        },
-        {
-            "Id": 5,
-            "Code": "FUND05",
-            "Name": "Dev Fund 05"
-        },
-        {
-            "Id": 6,
-            "Code": "FUND06",
-            "Name": "Dev Fund 06"
-        }
-    ]
+    {
+      "Id": 2,
+      "Code": "FUND02",
+      "Name": "Dev Fund 02"
+    },
+    {
+      "Id": 3,
+      "Code": "FUND03",
+      "Name": "Dev Fund 03"
+    },
+    {
+      "Id": 4,
+      "Code": "FUND04",
+      "Name": "Dev Fund 04"
+    },
+    {
+      "Id": 5,
+      "Code": "FUND05",
+      "Name": "Dev Fund 05"
+    },
+    {
+      "Id": 6,
+      "Code": "FUND06",
+      "Name": "Dev Fund 06"
+    }
+  ],
+  "monthlyUploads": [
+    {
+      "Id": 1,
+      "Period": "31-10-2019",
+      "FileName": "File 1",
+      "Description": "Something about file 1",
+      "UploadedDate": "24-10-2019"
+    },
+    {
+      "Id": 2,
+      "Period": "31-10-2019",
+      "FileName": "File 2",
+      "Description": "Something about file 2",
+      "UploadedDate": "22-01-2019"
+    },
+    {
+      "Id": 3,
+      "Period": "31-10-2019",
+      "FileName": "File 3",
+      "Description": "Something about file 3",
+      "UploadedDate": "24-10-2019"
+    },
+    {
+      "Id": 4,
+      "Period": "31-10-2019",
+      "FileName": "File 4",
+      "Description": "Something about file 4",
+      "UploadedDate": "24-10-2019"
+    },
+    {
+      "Id": 5,
+      "Period": "30-11-2019",
+      "FileName": "File 1",
+      "Description": "Something about file 1",
+      "UploadedDate": "12-11-2019"
+    },
+    {
+      "Id": 6,
+      "Period": "30-11-2019",
+      "FileName": "File 2",
+      "Description": "Something about file 2",
+      "UploadedDate": null
+    },
+    {
+      "Id": 7,
+      "Period": "30-11-2019",
+      "FileName": "File 3",
+      "Description": "Something about file 3",
+      "UploadedDate": "14-11-2019"
+    },
+    {
+      "Id": 8,
+      "Period": "30-11-2019",
+      "FileName": "File 4",
+      "Description": "Something about file 4",
+      "UploadedDate": null
+    }
+  ]
 }
