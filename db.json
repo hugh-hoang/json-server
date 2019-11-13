@@ -1,31 +1,37 @@
 {
-    "posts": [
+    "configuration": {
+        "apiBaseUrl": "https://my-json-server.typicode.com/hugh-hoang/json-server"
+    },
+    "funds": [
         {
-            "id": 1,
-            "title": "Post 1"
+            "Id": 1,
+            "Code": "FUND01",
+            "Name": "Dev Fund 01"
         },
         {
-            "id": 2,
-            "title": "Post 2"
+            "Id": 2,
+            "Code": "FUND02",
+            "Name": "Dev Fund 02"
         },
         {
-            "id": 3,
-            "title": "Post 3"
+            "Id": 3,
+            "Code": "FUND03",
+            "Name": "Dev Fund 03"
+        },
+        {
+            "Id": 4,
+            "Code": "FUND04",
+            "Name": "Dev Fund 04"
+        },
+        {
+            "Id": 5,
+            "Code": "FUND05",
+            "Name": "Dev Fund 05"
+        },
+        {
+            "Id": 6,
+            "Code": "FUND06",
+            "Name": "Dev Fund 06"
         }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+    ]
 }
