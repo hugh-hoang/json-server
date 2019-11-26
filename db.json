@@ -34,10 +34,10 @@
       "Name": "Dev Fund 06"
     }
   ],
-  "monthlyUploads": [
+  "priceFiles": [
     {
       "Id": 1,
-      "Period": "31-10-2019",
+      "Period": "01-11-2019",
       "FileName": "File 1",
       "Description": "Something about file 1",
       "UploadedDate": "24-10-2019",
@@ -45,7 +45,7 @@
     },
     {
       "Id": 2,
-      "Period": "31-10-2019",
+      "Period": "04-11-2019",
       "FileName": "File 2",
       "Description": "Something about file 2",
       "UploadedDate": "22-01-2019",
@@ -53,7 +53,7 @@
     },
     {
       "Id": 3,
-      "Period": "31-10-2019",
+      "Period": "05-11-2019",
       "FileName": "File 3",
       "Description": "Something about file 3",
       "UploadedDate": "24-10-2019",
@@ -61,7 +61,7 @@
     },
     {
       "Id": 4,
-      "Period": "31-10-2019",
+      "Period": "06-11-2019",
       "FileName": "File 4",
       "Description": "Something about file 4",
       "UploadedDate": "24-10-2019",
@@ -69,7 +69,7 @@
     },
     {
       "Id": 5,
-      "Period": "30-11-2019",
+      "Period": "07-11-2019",
       "FileName": "File 1",
       "Description": "Something about file 1",
       "UploadedDate": "12-11-2019",
@@ -77,7 +77,7 @@
     },
     {
       "Id": 6,
-      "Period": "30-11-2019",
+      "Period": "08-11-2019",
       "FileName": "File 2",
       "Description": "Something about file 2",
       "UploadedDate": null,
@@ -85,7 +85,7 @@
     },
     {
       "Id": 7,
-      "Period": "30-11-2019",
+      "Period": "09-11-2019",
       "FileName": "File 3",
       "Description": "Something about file 3",
       "UploadedDate": "14-11-2019",
@@ -93,7 +93,7 @@
     },
     {
       "Id": 8,
-      "Period": "30-11-2019",
+      "Period": "11-11-2019",
       "FileName": "File 4",
       "Description": "Something about file 4",
       "UploadedDate": null,
