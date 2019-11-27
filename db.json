@@ -1,119 +1,115 @@
 {
-    "configuration": {
-        "apiBaseUrl": "https://my-json-server.typicode.com/hugh-hoang/json-server"
+  "configuration": {
+    "apiBaseUrl": "https://my-json-server.typicode.com/hugh-hoang/json-server"
+  },
+  "funds": [
+    {
+      "Id": 1,
+      "Code": "FUND01",
+      "Name": "Dev Fund 01"
     },
-    "funds": [
-        {
-            "Id": 1,
-            "Code": "FUND01",
-            "Name": "Dev Fund 01"
-        },
-        {
-            "Id": 2,
-            "Code": "FUND02",
-            "Name": "Dev Fund 02"
-        },
-        {
-            "Id": 3,
-            "Code": "FUND03",
-            "Name": "Dev Fund 03"
-        },
-        {
-            "Id": 4,
-            "Code": "FUND04",
-            "Name": "Dev Fund 04"
-        },
-        {
-            "Id": 5,
-            "Code": "FUND05",
-            "Name": "Dev Fund 05"
-        },
-        {
-            "Id": 6,
-            "Code": "FUND06",
-            "Name": "Dev Fund 06"
-        }
-    ],
-    "lookups": {
-        "import-types": [
-            {
-                "Name": "Price File",
-                "Key": "prices"
-            },
-            {
-                "Name": "Performance Returns",
-                "Key": "returns"
-            }
-        ]
+    {
+      "Id": 2,
+      "Code": "FUND02",
+      "Name": "Dev Fund 02"
     },
-    "imports": {
-        "prices": {
-            "11-2019": [
-                {
-                    "Id": 1,
-                    "Period": "01-11-2019",
-                    "FileName": "File 1",
-                    "Description": "Something about file 1",
-                    "UploadedDate": "24-10-2019",
-                    "UploadedBy": "CH"
-                },
-                {
-                    "Id": 2,
-                    "Period": "04-11-2019",
-                    "FileName": "File 2",
-                    "Description": "Something about file 2",
-                    "UploadedDate": "22-01-2019",
-                    "UploadedBy": "HH"
-                },
-                {
-                    "Id": 3,
-                    "Period": "05-11-2019",
-                    "FileName": "File 3",
-                    "Description": "Something about file 3",
-                    "UploadedDate": "24-10-2019",
-                    "UploadedBy": "CH"
-                },
-                {
-                    "Id": 4,
-                    "Period": "06-11-2019",
-                    "FileName": "File 4",
-                    "Description": "Something about file 4",
-                    "UploadedDate": "24-10-2019",
-                    "UploadedBy": "CH"
-                },
-                {
-                    "Id": 5,
-                    "Period": "07-11-2019",
-                    "FileName": "File 1",
-                    "Description": "Something about file 1",
-                    "UploadedDate": "12-11-2019",
-                    "UploadedBy": "HH"
-                },
-                {
-                    "Id": 6,
-                    "Period": "08-11-2019",
-                    "FileName": "File 2",
-                    "Description": "Something about file 2",
-                    "UploadedDate": null,
-                    "UploadedBy": null
-                },
-                {
-                    "Id": 7,
-                    "Period": "09-11-2019",
-                    "FileName": "File 3",
-                    "Description": "Something about file 3",
-                    "UploadedDate": "14-11-2019",
-                    "UploadedBy": "HH"
-                },
-                {
-                    "Id": 8,
-                    "Period": "11-11-2019",
-                    "FileName": "File 4",
-                    "Description": "Something about file 4",
-                    "UploadedDate": null,
-                    "UploadedBy": null
-                }
-            ]
-        }
+    {
+      "Id": 3,
+      "Code": "FUND03",
+      "Name": "Dev Fund 03"
+    },
+    {
+      "Id": 4,
+      "Code": "FUND04",
+      "Name": "Dev Fund 04"
+    },
+    {
+      "Id": 5,
+      "Code": "FUND05",
+      "Name": "Dev Fund 05"
+    },
+    {
+      "Id": 6,
+      "Code": "FUND06",
+      "Name": "Dev Fund 06"
     }
+  ],
+  "import-types": [
+    {
+      "Name": "Price File",
+      "Key": "prices"
+    },
+    {
+      "Name": "Performance Returns",
+      "Key": "returns"
+    }
+  ],
+  "import-prices": {
+    "11-2019": [
+      {
+        "Id": 1,
+        "Period": "01-11-2019",
+        "FileName": "File 1",
+        "Description": "Something about file 1",
+        "UploadedDate": "24-10-2019",
+        "UploadedBy": "CH"
+      },
+      {
+        "Id": 2,
+        "Period": "04-11-2019",
+        "FileName": "File 2",
+        "Description": "Something about file 2",
+        "UploadedDate": "22-01-2019",
+        "UploadedBy": "HH"
+      },
+      {
+        "Id": 3,
+        "Period": "05-11-2019",
+        "FileName": "File 3",
+        "Description": "Something about file 3",
+        "UploadedDate": "24-10-2019",
+        "UploadedBy": "CH"
+      },
+      {
+        "Id": 4,
+        "Period": "06-11-2019",
+        "FileName": "File 4",
+        "Description": "Something about file 4",
+        "UploadedDate": "24-10-2019",
+        "UploadedBy": "CH"
+      },
+      {
+        "Id": 5,
+        "Period": "07-11-2019",
+        "FileName": "File 1",
+        "Description": "Something about file 1",
+        "UploadedDate": "12-11-2019",
+        "UploadedBy": "HH"
+      },
+      {
+        "Id": 6,
+        "Period": "08-11-2019",
+        "FileName": "File 2",
+        "Description": "Something about file 2",
+        "UploadedDate": null,
+        "UploadedBy": null
+      },
+      {
+        "Id": 7,
+        "Period": "09-11-2019",
+        "FileName": "File 3",
+        "Description": "Something about file 3",
+        "UploadedDate": "14-11-2019",
+        "UploadedBy": "HH"
+      },
+      {
+        "Id": 8,
+        "Period": "11-11-2019",
+        "FileName": "File 4",
+        "Description": "Something about file 4",
+        "UploadedDate": null,
+        "UploadedBy": null
+      }
+    ]
+  }
 }
